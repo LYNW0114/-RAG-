@@ -1,0 +1,29 @@
+fastapi==0.162.0
+uvicorn[standard]==0.54.0
+
+langchain==0.3.30
+langchain-core==0.3.86
+langchain-community==0.3.21
+langchain-openai==0.3.35
+langchain-chroma==0.2.2
+chromadb==0.5.0
+dashscope==1.27.7
+openai==2.54.0
+python-dotenv==1.1.0
+
+streamlit==1.51.0
+pandas==2.3.3
+numpy==1.26.4
+PyPDF2==3.0.1
+openpyxl==3.1.5
+requests==2.34.2
+
+# 混合检索（BM25 + 向量）
+rank-bm25==0.2.2
+jieba==0.42.1
+
+# RAGAS 评估
+ragas==0.4.3
+datasets==4.8.5
+pyarrow==21.0.0
+protobuf>=5,<7
